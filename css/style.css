@@ -59,6 +59,26 @@ Commons
 
 }
 
+  
+@font-face {
+	font-family: 'AvenirLTStd-Medium';
+	src: url('../fonts/2CFB09_0_0.eot');
+	src: url('../fonts/2CFB09_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/2CFB09_0_0.woff2') format('woff2'),
+	url('../fonts/2CFB09_0_0.woff') format('woff'),
+	url('../fonts/2CFB09_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'AvenirLTStd-Book';src: url('fonts/2CFB09_1_0.eot');
+	src: url('../fonts/2CFB09_1_0.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/2CFB09_1_0.woff2') format('woff2'),
+	url('../fonts/2CFB09_1_0.woff') format('woff'),
+	url('../fonts/2CFB09_1_0.ttf') format('truetype');
+}
+ 
+
 ::-moz-selection {background: #b0b825;color: white; }
 ::selection {background: #b0b825;color: white; }
 
@@ -242,11 +262,13 @@ h1, h3, h4 {
 --------------------------------------------------------*/
 
 h1 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 40px;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
+	font-size: 32px;
 	text-transform: capitalize;
 	position: relative;
 	margin-bottom: 7px;
+	text-transform: uppercase;
+
 }
 
 h1.white {
@@ -254,7 +276,7 @@ h1.white {
 }
 
 h2 {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
 	font-size: 44px;
 	text-transform: none;
 	position: relative;
@@ -271,8 +293,10 @@ h2.press {
 
 
 h3 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
 	font-size: 22px;
+	text-transform: uppercase;
+
 }
 
 h3.white {
@@ -280,15 +304,17 @@ h3.white {
 }
 
 h4 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
 	font-size: 22px;
 	margin-bottom: 5px;
 	text-align: left;
+	text-transform: uppercase;
+
 	
 }
 
 h7 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
 	font-size: 22px;
 	margin-bottom: 5px;
 	text-align: center;
@@ -322,6 +348,7 @@ h8 {
 
 p {
 	margin-top: 10px;
+	font-family: 'AvenirLTStd-Book', sans-serif;
 }
 
 p a {
@@ -375,7 +402,7 @@ nav {
 }
 
 .links a {
-	font-family: Helvetica;
+	font-family: 'AvenirLTStd-Book', sans-serif;
 	font-size: 14px;
 	color: white;
 	text-decoration: none;
@@ -478,7 +505,7 @@ nav {
 
 
 .spherical {
-	font-family: Helvetica;
+	font-family: 'AvenirLTStd-Book', sans-serif;
 	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -563,7 +590,7 @@ Parallax
 	}
 	
 	p.prlx-quote {
-	font-family: "Cantarell", sans-serif;
+	font-family: "AvenirLTStd-Book", sans-serif;
 	font-size: 30px;
 	line-height: 2;
 	margin-bottom: 20px;
@@ -602,7 +629,7 @@ Parallax
 	}
 	
 	p.prlx-quote {
-	font-family: "Cantarell", sans-serif;
+	font-family: 'AvenirLTStd-Book', sans-serif;
 	font-size: 30px;
 	line-height: 2;
 	margin-bottom: 20px;
@@ -641,7 +668,7 @@ Parallax
 	}
 	
 	p.prlx-quote {
-	font-family: "Cantarell", sans-serif;
+	font-family: "AvenirLTStd-Book", sans-serif;
 	font-size: 30px;
 	line-height: 1.5;
 	margin-bottom: 20px;
@@ -673,9 +700,10 @@ Parallax
 	#parallax4 h2 {
 	text-align: center;
 	margin-bottom: 0px;
-	font-family: BebasNeueRegular, sans-serif;
+	font-family: 'AvenirLTStd-Medium', sans-serif;
 	margin-top: 35px;
 	color: darkslategrey;
+	text-transform: uppercase;
 	}
 	
 	.bg4 {
@@ -721,7 +749,7 @@ Parallax
 	}
 	
 	p.prlx-quote {
-	font-family: "Cantarell", sans-serif;
+	font-family: "AvenirLTStd-Book", sans-serif;
 	font-size: 22px;
 	line-height: 1.5;
 	margin-bottom: 20px;
@@ -734,7 +762,7 @@ Parallax
 	}
 	
 	p.prlx-quote_right {
-	font-family: "Cantarell", sans-serif;
+	font-family: "AvenirLTStd-Book", sans-serif;
 	font-size: 22px;
 	line-height: 1.5;
 	margin-bottom: 20px;
@@ -750,7 +778,7 @@ Parallax
 	}
 	
 	p.prlx-quote_center {
-	font-family: "Cantarell", sans-serif;
+	font-family: "AvenirLTStd-Book", sans-serif;
 	font-size: 22px;
 	line-height: 1.5;
 	margin-bottom: 20px;
@@ -776,6 +804,7 @@ Parallax
 	margin-top: 15px;
 	left: -1%;
 	z-index: 200;
+	font-family: 'AvenirLTStd-Book', sans-serif;
 	}
 	
 	.prlx-author_right {
@@ -896,7 +925,7 @@ Content
 }
 
 .overlay {
-	background: #b0b825;
+	background: #2b2b2b;
 
 }
     
@@ -1054,8 +1083,8 @@ Content
 	}
 	
 	.project-title {
-		font-family: 'Oswald', sans-serif;
-		font-size: 12px;
+		font-family: 'AvenirLTStd-Medium', sans-serif;
+		font-size: 11px;
 		text-transform: uppercase;
 		margin-top: 7px;
 	}
@@ -1123,7 +1152,7 @@ Content
 		border-bottom: white 1px solid;
 		text-transform: uppercase;
 		color: white;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'AvenirLTStd-Medium', sans-serif;
 		font-size: 36px;
 		
 		cursor: default;
@@ -1245,7 +1274,7 @@ h2 {
 
 .presstype {
 	
-	font-family: 'Oswald',sans-serif;
+	font-family: 'AvenirLTStd-Book',sans-serif;
     font-size: 22px;
     margin-bottom: 3px;
     margin-top: -10px;
@@ -1283,3 +1312,24 @@ h2 {
 #portfolio .container {
     padding-bottom: 50px;
 }
+
+
+/* ================== EDITS ========================= */
+
+.about p {
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+#about .one-text p {
+	line-height: 32px;
+	letter-spacing: .5px;
+}
+
+
+
+
+
+
+
+
